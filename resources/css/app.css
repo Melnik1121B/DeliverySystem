@@ -1,0 +1,408 @@
+/* Общие стили для форм */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Стили для кнопок */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Стили для заголовков */
+h2 {
+    margin-bottom: 1.5rem;
+}
+
+/* Стили для карточки регистрации */
+.card {
+    margin-top: 2rem;
+}
+
+/* Стили для текстовых полей */
+.form-control {
+    border-radius: 0.25rem;
+}
+
+/* Стили для ссылок */
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+/* Navigation */
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Main content */
+main {
+    padding: 20px 0;
+}
+
+/* Forms */
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Messages */
+.message {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.message.success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.message.error {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main .client-section {
+    margin-top: 40px;
+}
+
+main .client-section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+main .client-section ul {
+    list-style-type: none;
+}
+
+main .client-section ul li {
+    margin: 10px 0;
+}
+
+
+body {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+section {
+    margin: auto;
+    padding: 20px;
+}
+
+p {
+    line-height: 1;
+    vertical-align: 1;
+    margin: 0;   
+}
+
+.text {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.btn {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #DEC2A6;
+    background: #E0AA6E;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:active {
+    background: #201E21;
+}
+
+.btn:hover {
+    background: #DEC2A6;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #E0AA6E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    max-width: 800px;
+    margin: auto;
+}
+
+.label {
+    padding: 5px 15px;
+    border-radius: 25px;
+    border: 3px solid #00FF29;
+    background: linear-gradient(rgba(129, 163, 76, 100%), rgba(133, 162, 88, 60%), rgba(154, 154, 154, 20%));
+    margin-right: 10px;
+}
+
+.frm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input__text {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    border: 3px solid #00FF29;
+    padding: 10px;
+    resize: none;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid #00FF29;
+    padding: 10px;
+    resize: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header-title {
+    margin: 0;
+}
+
+.header-nav {
+    float: right;
+}
+
+.nav-link {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.client-section {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.client-img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+}
+
+body {
+    background: #4CAF50; /* Зеленый фон */
+    color: #666666;
+    font-family: 'RobotoDraft', 'Roboto', sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  /* Pen Title */
+.pen-title {
+    padding: 50px 0;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  .pen-title h1 {
+    margin: 0 0 20px;
+    font-size: 48px;
+    font-weight: 300;
+  }
+  .pen-title span {
+    font-size: 12px;
+  }
+  .pen-title span .fa {
+    color: #f30;
+  }
+  .pen-title span a {
+    color: #f30;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  /* Form Module */
+  .form-module {
+    position: relative;
+    background: #ffffff;
+    max-width: 320px;
+    width: 100%;
+    border-top: 5px solid #f30;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+  }
